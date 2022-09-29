@@ -166,7 +166,7 @@ describe('BDB', function() {
 
   describe('thread safety', function() {
     async function checkError(method, message) {
-      const batch = db.batch();
+      const batch = db.chainedBatch();
       const hash = Buffer.alloc(20, 0x11);
 
       const value = Buffer.alloc(1024 * 1024);

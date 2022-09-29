@@ -13,9 +13,7 @@ INSTALL
 NEWS
 README
 bench/
-bench/
 build-pre-gyp/
-build/
 build/
 deps/leveldb/leveldb-*/doc/
 deps/leveldb/leveldb-basho/
@@ -30,7 +28,6 @@ package-lock.json
 patches/
 test-data.db.tar
 test-data.tar
-test/
 test/
 webpack.*.js
 yarn.lock
